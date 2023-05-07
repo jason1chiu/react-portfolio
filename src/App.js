@@ -16,11 +16,11 @@ const styles = {
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App" style={styles}>
         <Header />
         <Routes>
-          <Route exact path="/react-portfolio" component={AboutMe} />
+          <Route index path="/" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />

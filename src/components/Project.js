@@ -15,6 +15,9 @@ const styles = {
   title: {
     fontSize: '2rem',
   },
+  buttonText:{
+    color: "#FFF4E9"
+  }
 };
 
 const Project = ({ title, imageUrl, description, href, buttonText, githubLink }) => {
@@ -32,7 +35,7 @@ const Project = ({ title, imageUrl, description, href, buttonText, githubLink })
       </div>
       <div className="card-footer">
         <a href={href} className="btn" style={styles.button} target="_blank" rel="noreferrer">
-          {buttonText}
+          <span style={styles.buttonText}>{buttonText}</span>
         </a>
       </div>
     </div>

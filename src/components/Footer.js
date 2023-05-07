@@ -22,7 +22,7 @@ const Footer = () => {
     <section className="col-12" style={styles.section}>
       <nav className="navbar">
         <section className="container-fluid justify-content-center align-items-center btn-group">
-          <button type="button" className="btn btn-light btn-link">
+          <button type="button" className="btn btn-link">
             <a href="https://www.facebook.com/jasonchiu1991/" target="_blank" rel="noreferrer" className="social-icon social-icon--facebook">
               <FontAwesomeIcon icon={faFacebook} style={{ ...styles.link, ...styles.icon }} />
               <section>
@@ -30,7 +30,7 @@ const Footer = () => {
               </section>
             </a>
           </button>
-          <button type="button" className="btn btn-light btn-link">
+          <button type="button" className="btn btn-link">
             <a href="https://github.com/jason1chiu/" target="_blank" rel="noreferrer" className="social-icon social-icon--github">
               <FontAwesomeIcon icon={faGithub} style={{ ...styles.link, ...styles.icon }} />
               <section>
@@ -38,7 +38,7 @@ const Footer = () => {
               </section>
             </a>
           </button>
-          <button type="button" className="btn btn-light btn-link">
+          <button type="button" className="btn btn-link">
             <a href="https://www.linkedin.com/in/chien-cheng-chiu-0a0930257/" target="_blank" rel="noreferrer" className="social-icon social-icon--linkedin">
               <FontAwesomeIcon icon={faLinkedin} style={{ ...styles.link, ...styles.icon }} />
               <section>

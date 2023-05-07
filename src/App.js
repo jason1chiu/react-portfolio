@@ -6,7 +6,6 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
-import Thesis from './components/Thesis';
 
 const styles = {
   background: '#D8D174',
@@ -29,8 +28,6 @@ function App() {
         return <Contact />;
       case 'Resume':
         return <Resume />;
-      case 'Thesis':
-        return <Thesis />;
       default:
         return <AboutMe />;
     }

@@ -21,7 +21,7 @@ const Navigation = ({ handlePageChange }) => {
         </button>
         <button
           type="button"
-          className="btn btn-light btn-link text-decoration-none"
+          className="btn btn-link text-decoration-none"
           onClick={() => handlePageChange('Portfolio')}
           style={linkStyles}
         >
@@ -29,7 +29,7 @@ const Navigation = ({ handlePageChange }) => {
         </button>
         <button
           type="button"
-          className="btn btn-light btn-link text-decoration-none"
+          className="btn btn-link text-decoration-none"
           onClick={() => handlePageChange('Contact')}
           style={linkStyles}
         >
@@ -37,13 +37,13 @@ const Navigation = ({ handlePageChange }) => {
         </button>
         <button
           type="button"
-          className="btn btn-light btn-link text-decoration-none"
+          className="btn btn-link text-decoration-none"
           onClick={() => handlePageChange('Resume')}
           style={linkStyles}
         >
           Resume
         </button>
-        <button type="button" className="btn btn-light btn-link text-decoration-none">
+        <button type="button" className="btn btn-link text-decoration-none">
           <a href={thesis} target="_blank" rel="noreferrer" style={linkStyles}>
             Thesis
           </a>

@@ -20,6 +20,9 @@ const styles = {
   button: {
     background: '#6C757D',
   },
+  buttonText:{
+    color: "#FFF4E9"
+  }
 };
 
 const Resume = () => {
@@ -50,9 +53,9 @@ const Resume = () => {
         Resume
       </h1>
       <div className="text-center mb-4 mx-2">
-      <button type="button" className="btn btn-primary" style={styles.button}>
-          <a className="text-white" style={styles.link} href={resume} download>
-            Download Resume
+      <button type="button" className="btn" style={styles.button}>
+          <a style={styles.link} href={resume} download>
+            <span style={styles.buttonText}>Download Resume</span>
           </a>
         </button>
       </div>

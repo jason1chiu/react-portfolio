@@ -18,6 +18,9 @@ const styles = {
     input: {
       fontSize: '2.5rem',
     },
+    buttonText: {
+      color: "#FFF4E9"
+    }
   },
 };
 
@@ -95,8 +98,8 @@ const Contact = () => {
             ></textarea>
             {messageError && <small className="text-danger">{messageError}</small>}
           </div>
-          <button type="submit" className="btn btn-primary" style={styles.form.button}>
-            Submit
+          <button type="submit" className="btn" style={styles.form.button}>
+            <span style={styles.form.buttonText}>Submit</span>
           </button>
         </form>
       </div>

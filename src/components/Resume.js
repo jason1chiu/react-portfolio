@@ -11,6 +11,7 @@ const styles = {
     fontSize: '2.5rem',
   },
   proficiency: {
+    background: '#F4D8CD',
     color: '#465775',
     fontSize: '1.5rem',
     marginLeft: '1rem',
@@ -57,7 +58,7 @@ const Resume = () => {
       </div>
       <div className="row" style={styles.section}>
         <div className="col-12">
-          <h2 className="text-center mb-3" style={styles.proficiency}>Proficiencies</h2>
+          <h2 className="text-center mb-3">Proficiencies</h2>
           <div className="d-flex justify-content-center">
             <ul className="list-group text-center">
               {proficiencies.map((proficiency, index) => (

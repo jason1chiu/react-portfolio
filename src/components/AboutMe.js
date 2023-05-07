@@ -1,6 +1,8 @@
+// Import React and the avatar image
 import React from 'react';
 import avatar from '../assets/images/avatar.webp'
 
+// Define an object for inline styles
 const styles = {
   main: {
     background: '#D8D174',
@@ -19,6 +21,7 @@ const styles = {
   },
 };
 
+// Define the AboutMe component
 const AboutMe = () => {
   return (
     <div>
@@ -94,4 +97,5 @@ const AboutMe = () => {
   );
 };
 
+// Export the AboutMe component
 export default AboutMe;

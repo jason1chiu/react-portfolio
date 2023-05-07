@@ -1,14 +1,17 @@
+// Import React, the Project component, and image files
 import React from 'react';
 import Project from './Project';
 import project1 from '../assets/images/19th-project.webp';
 import project2 from '../assets/images/20th-project.webp';
 
+// Define some styles for the section
 const styles = {
   background: '#D8D174',
   color: '#465775',
   fontSize: '2rem'
 };
 
+// Define an array of group projects with their details
 const groupProjects = [
   {
     title: 'Pokemon Counter Generator',
@@ -30,7 +33,9 @@ const groupProjects = [
   },
 ];
 
+// Define the GroupProject component
 const GroupProject = () => {
+  // Render a section with the titles of the group projects and their details
   return (
     <div>
       <section className="row" style={styles}>
@@ -61,4 +66,5 @@ const GroupProject = () => {
   );
 };
 
+// Export the GroupProject component as the default export of this module
 export default GroupProject;

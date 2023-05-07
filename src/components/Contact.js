@@ -1,5 +1,7 @@
+// Import React and useState hook
 import React, { useState } from 'react';
 
+// Define styles object
 const styles = {
   section: {
     background: '#D8D174',
@@ -24,30 +26,37 @@ const styles = {
   },
 };
 
+// Define Contact component
 const Contact = () => {
+  // Define state variables for form errors
   const [nameError, setNameError] = useState('');
   const [emailError, setEmailError] = useState('');
   const [messageError, setMessageError] = useState('');
 
+  // Define form submit handler function
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle form submission logic here
     console.log('Form submitted');
   };
 
+  // Define form input blur handler function
   const handleBlur = (event) => {
     const { id, value } = event.target;
+    // If input value is empty, set corresponding error message
     if (!value) {
       if (id === 'name') setNameError('Name is required');
       if (id === 'email') setEmailError('Email is required');
       if (id === 'message') setMessageError('Message is required');
     } else {
+      // Otherwise, clear corresponding error message
       if (id === 'name') setNameError('');
       if (id === 'email') setEmailError('');
       if (id === 'message') setMessageError('');
     }
   };
 
+  // Render Contact component
   return (
     <section className="contact-section py-5" style={styles.section}>
       <h1 className="text-center mb-4" id="contact" style={styles.title}>
@@ -107,4 +116,5 @@ const Contact = () => {
   );
 };
 
+// Export Contact component
 export default Contact;

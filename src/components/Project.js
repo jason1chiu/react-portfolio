@@ -1,7 +1,9 @@
+// Import React and Fortawesome icons
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
+// Define styles for the Project component
 const styles = {
   card: {
     background: '#F4D8CD',
@@ -20,6 +22,7 @@ const styles = {
   }
 };
 
+// Define a Project component that takes in properties such as title, imageUrl, description, href, buttonText, and githubLink, and returns a project card
 const Project = ({ title, imageUrl, description, href, buttonText, githubLink }) => {
   return (
     <div className="card h-100" style={styles.card}>
@@ -42,4 +45,5 @@ const Project = ({ title, imageUrl, description, href, buttonText, githubLink })
   );
 };
 
+// Export the Project component as the default export of this module
 export default Project;

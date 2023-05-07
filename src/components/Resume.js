@@ -1,6 +1,8 @@
+// Import React and the pdf file
 import React from 'react';
 import resume from '../assets/links/resume.pdf';
 
+// Define some styles
 const styles = {
   section: {
     background: '#D8D174',
@@ -25,6 +27,7 @@ const styles = {
   }
 };
 
+// Define a Resume component that renders proficiencies and a resume
 const Resume = () => {
   const proficiencies = [
     'HTML, CSS, and Git',
@@ -77,4 +80,5 @@ const Resume = () => {
   );
 };
 
+// Export the Resume component as the default export of this module
 export default Resume;

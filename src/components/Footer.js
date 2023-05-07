@@ -1,7 +1,9 @@
+// Import React and fortawesome icons
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
+// Define some styles for the section, link, and icon
 const styles = {
   section: {
     background: '#D8D174',
@@ -17,7 +19,9 @@ const styles = {
   },
 };
 
+// Define the Footer component
 const Footer = () => {
+  // Render the footer section with three social media links
   return (
     <section className="col-12" style={styles.section}>
       <nav className="navbar">
@@ -52,4 +56,5 @@ const Footer = () => {
   );
 };
 
+// Export the Footer component as the default export of this module
 export default Footer;

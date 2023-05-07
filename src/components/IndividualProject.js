@@ -1,3 +1,4 @@
+// Import React, the Project component and image files
 import React from 'react';
 import Project from './Project';
 import project1 from '../assets/images/4th-project.webp';
@@ -5,12 +6,14 @@ import project2 from '../assets/images/6th-project.webp';
 import project3 from '../assets/images/12th-project.webp';
 import project4 from '../assets/images/8th-project.webp';
 
+// Define some styles for the section
 const styles = {
   background: '#D8D174',
   color: '#465775',
   fontSize: '2rem'
 }
 
+// Define an array of individual projects with their details
 const individualProjects = [
   {
     title: 'Math Quiz',
@@ -81,4 +84,5 @@ const IndividualProject = () => {
   );
 };
 
+// Export the IndividualProject component as the default export of this module
 export default IndividualProject;

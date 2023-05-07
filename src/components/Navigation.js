@@ -25,7 +25,7 @@ const Navigation = () => {
           </a>
         </button>
         <button type="button" className="btn btn-light btn-link">
-          <a className="text-black" href="./assets/links/Resume.pdf">
+          <a className="text-black" href="../assets/links/Resume.pdf">
             Resume
           </a>
         </button>

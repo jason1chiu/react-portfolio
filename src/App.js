@@ -20,7 +20,7 @@ function App() {
       <div className="App" style={styles}>
         <Header />
         <Routes>
-          <Route path="/" element={<AboutMe />} />
+          <Route exact path="/" component={AboutMe} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />

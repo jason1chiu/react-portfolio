@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Portfolio Pro
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) The application is covered under the [MIT License](https://opensource.org/licenses/MIT).
+## Description
+My motivation for creating this React portfolio is to showcase my skills and experience as a web developer and to provide potential employers with a clear and compelling overview of my work samples. I built this React portfolio project to demonstrate my proficiency in using React and to create a professional and polished online presence that showcases my web development projects and skills. This React portfolio project solves the problem of effectively and efficiently presenting my web development work samples to potential employers, providing them with a user-friendly and informative platform to assess my skills and experience. Through building this React portfolio project, I gained valuable experience in creating reusable components, working with React hooks and state management, and deploying a React application to GitHub Pages.
+## Table of Contents:
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Credits](#credits)
+4. [Features](#features)
+5. [Contribute](#contribute)
+6. [Test](#test)
+7. [Questions](#questions)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation
+1. No installation required
+2. Just click [here](https://jason1chiu.github.io/react-portfolio/)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Usage
+To use "Portfolio Pro," simply enter the website URL in your web browser and the website will appear. The website consists of a header with a navigation bar, an "About Me" section with a brief bio and photo of the developer, a "Portfolio" section with six projects that feature a screenshot or GIF of the deployed application, and links to the deployed app and the corresponding GitHub repository, a "Contact" section where users can fill out a form to send a message to the developer, and a "Resume" section with a link to the developer's downloadable resume and a list of their proficiencies. To view a specific section, click on the corresponding title in the navigation bar. For example, clicking on "Portfolio" will display the projects, and clicking on one of the projects will display more information about it. To send a message to the developer, fill out the form in the "Contact" section with your name, email address, and message. "Portfolio Pro" is a simple and user-friendly portfolio that showcases the developer's skills and projects in a professional and polished way.
 
-### `npm start`
+## Credits
+### Collaborators
+None
+### Third-Party
+1. [Node.js](https://nodejs.org/en)
+2. [npm bootstrap](https://www.npmjs.com/package/bootstrap)
+3. [npm react](https://www.npmjs.com/package/react)
+4. [npm react-dom](https://www.npmjs.com/package/react-dom)
+5. [npm react-router-dom](https://www.npmjs.com/package/react-router-dom)
+6. [npm gh-pages](https://www.npmjs.com/package/gh-pages)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tutorials
+None
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+None
 
-### `npm test`
+## Contribute
+1. Fork the repository.
+2. Create a new branch.
+3. Write and test your code.
+4. Commit your changes with detailed comments.
+5. Push your changes to GitHub.
+6. Open a pull request.
+7. Merge your pull request.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Test
+[None](None)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Questions
+If you like to see my other projects, my GitHub username is [jason1chiu](https://github.com/jason1chiu) and my GitHub profile is [https://github.com/jason1chiu](https://github.com/jason1chiu). Furthermore you may email me at jasonchiu2@yahoo.com if you have any additional questions.

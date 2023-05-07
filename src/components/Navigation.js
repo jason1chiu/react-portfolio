@@ -1,36 +1,40 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import thesis from '../assets/links/Chiu_Thesis.pdf';
+
+const linkStyles = {
+  color: '#465775',
+  fontSize: '2rem',
+};
+
 
 const Navigation = () => {
+  // define the link style object
   return (
     <nav className="navbar">
       <section className="container-fluid btn-group justify-content-center align-items-center">
-        <button type="button" className="btn btn-light btn-link">
-          <a className="text-black" href="#about">
+        <button type="button" className="btn btn-light btn-link text-decoration-none">
+          <Link to="/" style={linkStyles}>
             About
-          </a>
+          </Link>
         </button>
-        <button type="button" className="btn btn-light btn-link">
-          <a className="text-black" href="#individualProjects">
-            Individual Projects
-          </a>
+        <button type="button" className="btn btn-light btn-link text-decoration-none">
+          <Link to="/portfolio" style={linkStyles}>
+            Portfolio
+          </Link>
         </button>
-        <button type="button" className="btn btn-light btn-link">
-          <a className="text-black" href="#groupProjects">
-            Group Projects
-          </a>
-        </button>
-        <button type="button" className="btn btn-light btn-link">
-          <a className="text-black" href="#contact">
+        <button type="button" className="btn btn-light btn-link text-decoration-none">
+          <Link to="/contact" style={linkStyles}>
             Contact
-          </a>
+          </Link>
         </button>
-        <button type="button" className="btn btn-light btn-link">
-          <a className="text-black" href="../assets/links/Resume.pdf">
+        <button type="button" className="btn btn-light btn-link text-decoration-none">
+          <Link to="/resume" style={linkStyles}>
             Resume
-          </a>
+          </Link>
         </button>
-        <button type="button" className="btn btn-light btn-link">
-          <a className="text-black" href="./assets/links/Master's Thesis.pdf">
+        <button type="button" className="btn btn-light btn-link text-decoration-none">
+          <a href={thesis} target="_blank" rel="noreferrer" style={linkStyles}>
             Thesis
           </a>
         </button>

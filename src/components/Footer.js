@@ -1,6 +1,5 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const styles = {
@@ -23,14 +22,6 @@ const Footer = () => {
     <section className="col-12" style={styles.section}>
       <nav className="navbar">
         <section className="container-fluid justify-content-center align-items-center btn-group">
-          <button type="button" className="btn btn-light btn-link">
-            <a href="#contact" className="social-icon social-icon--phone" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="This top tooltip is themed via CSS variables.">
-            <FontAwesomeIcon icon={faPhone} style={{ ...styles.link, ...styles.icon }} />
-              <section>
-              <span className="text-decoration-none" style={styles.link}>Phone</span>
-              </section>
-            </a>
-          </button>
           <button type="button" className="btn btn-light btn-link">
             <a href="https://www.facebook.com/jasonchiu1991/" target="_blank" rel="noreferrer" className="social-icon social-icon--facebook">
               <FontAwesomeIcon icon={faFacebook} style={{ ...styles.link, ...styles.icon }} />

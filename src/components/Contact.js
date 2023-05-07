@@ -51,6 +51,11 @@ const Contact = () => {
         Contact
       </h1>
 
+      <div className="text-center mb-4">
+        <p>Email: jasonchiu2@yahoo.com</p>
+        <p>Phone: +1 (647) 761-1016</p>
+      </div>
+
       <div className="col-12 col-md-8 mx-auto" style={styles.section}>
         <form onSubmit={handleSubmit}>
           <div className="form-group mb-3">

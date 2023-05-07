@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c2cab247.css",
+    "main.js": "/react-portfolio/static/js/main.a5915527.js",
+    "static/media/Chiu_Thesis.pdf": "/react-portfolio/static/media/Chiu_Thesis.daffb7418b617e8309f5.pdf",
+    "static/media/20th-project.webp": "/react-portfolio/static/media/20th-project.074bf077b976bdd14a4c.webp",
+    "static/media/19th-project.webp": "/react-portfolio/static/media/19th-project.e2114ec282f653f74ec6.webp",
+    "static/media/4th-project.webp": "/react-portfolio/static/media/4th-project.40f0e08be7741fe7da69.webp",
+    "static/media/8th-project.webp": "/react-portfolio/static/media/8th-project.8cae6933c11b1e82f68d.webp",
+    "static/media/12th-project.webp": "/react-portfolio/static/media/12th-project.0d15858b50ac830a2d4d.webp",
+    "static/media/6th-project.webp": "/react-portfolio/static/media/6th-project.3ee7d2e36099b0cfe6d5.webp",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.6d070a2fedb981fe19b1.pdf",
+    "static/media/avatar.webp": "/react-portfolio/static/media/avatar.ca3fee4750c144a7eab3.webp",
+    "index.html": "/react-portfolio/index.html",
+    "main.c2cab247.css.map": "/react-portfolio/static/css/main.c2cab247.css.map",
+    "main.a5915527.js.map": "/react-portfolio/static/js/main.a5915527.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.a5915527.js"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c2cab247.css",
-    "main.js": "/react-portfolio/static/js/main.8fb14bfc.js",
+    "main.js": "/react-portfolio/static/js/main.245be08f.js",
     "static/media/Chiu_Thesis.pdf": "/react-portfolio/static/media/Chiu_Thesis.daffb7418b617e8309f5.pdf",
     "static/media/20th-project.webp": "/react-portfolio/static/media/20th-project.074bf077b976bdd14a4c.webp",
     "static/media/19th-project.webp": "/react-portfolio/static/media/19th-project.e2114ec282f653f74ec6.webp",
@@ -13,10 +13,10 @@
     "static/media/avatar.webp": "/react-portfolio/static/media/avatar.ca3fee4750c144a7eab3.webp",
     "index.html": "/react-portfolio/index.html",
     "main.c2cab247.css.map": "/react-portfolio/static/css/main.c2cab247.css.map",
-    "main.8fb14bfc.js.map": "/react-portfolio/static/js/main.8fb14bfc.js.map"
+    "main.245be08f.js.map": "/react-portfolio/static/js/main.245be08f.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.8fb14bfc.js"
+    "static/js/main.245be08f.js"
   ]
 }

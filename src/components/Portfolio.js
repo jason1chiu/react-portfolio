@@ -9,7 +9,7 @@ const Portfolio = () => {
     <div>
       <AboutMe />
       <IndividualProject />
-      {/* <GroupProject /> */}
+      <GroupProject />
     </div>
   );
 };

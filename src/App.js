@@ -9,9 +9,9 @@ import Resume from './components/Resume';
 import Thesis from './components/Thesis';
 
 const styles = {
-  background: '#B6C454',
+  background: '#D8D174',
   color: '#465775',
-  fontSize: '2rem'
+  fontSize: '2rem',
 };
 
 function App() {

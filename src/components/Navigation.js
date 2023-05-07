@@ -4,6 +4,7 @@ import thesis from '../assets/links/Chiu_Thesis.pdf';
 const linkStyles = {
   color: '#465775',
   fontSize: '2rem',
+  textDecoration: 'none',
 };
 
 const Navigation = ({ handlePageChange }) => {

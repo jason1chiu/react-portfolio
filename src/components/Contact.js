@@ -4,6 +4,8 @@ const styles = {
   section: {
     background: '#D8D174',
     color: '#465775',
+    marginLeft: '1rem',
+    marginRight: '1rem'
   },
   title: {
     fontSize: '2.5rem',
@@ -11,6 +13,7 @@ const styles = {
   form: {
     button: {
       fontSize: '2.5rem',
+      background: '#6C757D'
     },
     input: {
       fontSize: '2.5rem',

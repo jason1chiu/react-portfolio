@@ -3,24 +3,26 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const styles = {
-  background: '#F4D8CD',
-  color: '#465775',
-}
-
-const titleStyle = {
-  fontSize: '2rem',
-}
-
-const buttonTextStyle = {
-  fontSize: '2rem',
-}
+  card: {
+    background: '#F4D8CD',
+    color: '#465775',
+  },
+  button: {
+    background: '#6C757D', // Custom button background color
+    color: '#FFFFFF', // Custom button text color
+    fontSize: '2rem',
+  },
+  title: {
+    fontSize: '2rem',
+  },
+};
 
 const Project = ({ title, imageUrl, description, href, buttonText, githubLink }) => {
   return (
-    <div className="card h-100" style={styles}>
+    <div className="card h-100" style={styles.card}>
       <img src={imageUrl} className="card-img-top" alt={title} />
       <div className="card-body">
-        <h4 className="card-title" style={titleStyle}>
+        <h4 className="card-title" style={styles.title}>
           {title}{' '}
           <a href={githubLink} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} />
@@ -29,7 +31,7 @@ const Project = ({ title, imageUrl, description, href, buttonText, githubLink })
         <p className="card-text">{description}</p>
       </div>
       <div className="card-footer">
-        <a href={href} className="btn btn-primary" style={buttonTextStyle} target="_blank" rel="noreferrer">
+        <a href={href} className="btn" style={styles.button} target="_blank" rel="noreferrer">
           {buttonText}
         </a>
       </div>

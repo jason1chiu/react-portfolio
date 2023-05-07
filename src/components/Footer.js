@@ -11,6 +11,7 @@ const styles = {
   link: {
     color: '#465775',
     fontSize: '2rem',
+    textDecoration: 'none'
   },
   icon: {
     fontSize: '2.5rem',
@@ -26,7 +27,7 @@ const Footer = () => {
             <a href="#contact" className="social-icon social-icon--phone" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="This top tooltip is themed via CSS variables.">
             <FontAwesomeIcon icon={faPhone} style={{ ...styles.link, ...styles.icon }} />
               <section>
-              <span style={styles.link}>Phone</span>
+              <span className="text-decoration-none" style={styles.link}>Phone</span>
               </section>
             </a>
           </button>

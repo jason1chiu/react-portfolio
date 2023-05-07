@@ -1,6 +1,6 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header'
+import React, { useState } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -12,20 +12,35 @@ const styles = {
   background: '#B6C454',
   color: '#465775',
   fontSize: '2rem'
-}
+};
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('AboutMe');
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'AboutMe':
+        return <AboutMe />;
+      case 'Portfolio':
+        return <Portfolio />;
+      case 'Contact':
+        return <Contact />;
+      case 'Resume':
+        return <Resume />;
+      case 'Thesis':
+        return <Thesis />;
+      default:
+        return <AboutMe />;
+    }
+  };
+
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="App" style={styles}>
-        <Header />
-        <Routes>
-          <Route index path="/" element={<AboutMe />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/thesis" element={<Thesis />} />
-        </Routes>
+        <Header handlePageChange={handlePageChange} />
+        {renderPage()}
         <Footer />
       </div>
     </Router>

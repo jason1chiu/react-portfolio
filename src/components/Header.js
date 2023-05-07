@@ -12,14 +12,14 @@ const styles = {
   },
 };
 
-const Header = () => {
+const Header = ({ handlePageChange }) => {
   return (
     <section className="row" style={styles.section}>
       <section className="col-12">
         <h1 className="text-center mt-3 p-1" style={styles.heading}>Jason Chiu</h1>
       </section>
       <section className="col-12 mb-3">
-        <Navigation />
+        <Navigation handlePageChange={handlePageChange} />
       </section>
     </section>
   );

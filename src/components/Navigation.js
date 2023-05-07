@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import thesis from '../assets/links/Chiu_Thesis.pdf';
 
 const linkStyles = {
@@ -7,31 +6,41 @@ const linkStyles = {
   fontSize: '2rem',
 };
 
-
-const Navigation = () => {
-  // define the link style object
+const Navigation = ({ handlePageChange }) => {
   return (
     <nav className="navbar">
       <section className="container-fluid btn-group justify-content-center align-items-center">
-        <button type="button" className="btn btn-light btn-link text-decoration-none">
-          <Link to="/" style={linkStyles}>
-            About
-          </Link>
+        <button
+          type="button"
+          className="btn btn-light btn-link text-decoration-none"
+          onClick={() => handlePageChange('AboutMe')}
+          style={linkStyles}
+        >
+          About
         </button>
-        <button type="button" className="btn btn-light btn-link text-decoration-none">
-          <Link to="/portfolio" style={linkStyles}>
-            Portfolio
-          </Link>
+        <button
+          type="button"
+          className="btn btn-light btn-link text-decoration-none"
+          onClick={() => handlePageChange('Portfolio')}
+          style={linkStyles}
+        >
+          Portfolio
         </button>
-        <button type="button" className="btn btn-light btn-link text-decoration-none">
-          <Link to="/contact" style={linkStyles}>
-            Contact
-          </Link>
+        <button
+          type="button"
+          className="btn btn-light btn-link text-decoration-none"
+          onClick={() => handlePageChange('Contact')}
+          style={linkStyles}
+        >
+          Contact
         </button>
-        <button type="button" className="btn btn-light btn-link text-decoration-none">
-          <Link to="/resume" style={linkStyles}>
-            Resume
-          </Link>
+        <button
+          type="button"
+          className="btn btn-light btn-link text-decoration-none"
+          onClick={() => handlePageChange('Resume')}
+          style={linkStyles}
+        >
+          Resume
         </button>
         <button type="button" className="btn btn-light btn-link text-decoration-none">
           <a href={thesis} target="_blank" rel="noreferrer" style={linkStyles}>

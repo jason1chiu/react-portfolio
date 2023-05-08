@@ -36,8 +36,21 @@ const Contact = () => {
   // Define form submit handler function
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Handle form submission logic here
-    console.log('Form submitted');
+
+    // Get form values
+    const form = event.target;
+    const name = form.name.value;
+    const email = form.email.value;
+    const message = form.message.value;
+
+    // Check if there are no errors
+    if (!nameError && !emailError && !messageError) {
+      // Create mailto link
+      const mailtoLink = `mailto:jasonchiu2@yahoo.com?subject=Message from ${encodeURIComponent(name)}&body=Name: ${encodeURIComponent(name)}%0D%0AEmail: ${encodeURIComponent(email)}%0D%0A%0D%0AMessage: %0D%0A${encodeURIComponent(message)}`;
+
+      // Open mail client
+      window.location.href = mailtoLink;
+    }
   };
 
   // Define form input blur handler function
@@ -108,7 +121,7 @@ const Contact = () => {
             {messageError && <small className="text-danger">{messageError}</small>}
           </div>
           <button type="submit" className="btn" style={styles.form.button}>
-            <span style={styles.form.buttonText}>Submit</span>
+            <span style={styles.form.buttonText} mailto="jasonchiu2@yahoo.com">Submit</span>
           </button>
         </form>
       </div>
